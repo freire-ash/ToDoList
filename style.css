@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background: #000;
+    max-width: 450px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form label {
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background: #353535;
+}
+
+.form input:focus {
+    background: #f0f0f5;
+}
+
+.form button {
+    background: #7100b3;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background-color: #000000;
+    color: #7100b3;
+}
+
+.separator {
+    /* Linha separatória embaixo do botão */
+    background: #bbb;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.list-tasks {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.list-tasks ul {
+    list-style: none;
+}
+
+.list-tasks ul li {
+    background: #1f078b;
+    height: 54px;
+    border-radius: 4px;
+    color: #FFF;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 12px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    transition: background 0.3s;
+}
+
+.list-tasks ul li:hover {
+    background: #88CBC4;
+}
+
+.btn-clear {
+    background: #ff2723;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 12px;
+    color: #fff;
+    right: 120px;
+    transition: background 0.3s;
+}
+
+.btn-clear:hover {
+    background-color: #000000;
+    color: #ff2723;
+}
+
+
+.footer {
+    background: #000000;
+    border-radius: 4px;
+    padding: 12px;
+    color: #7100b3;
+}
+
+.footer p {
+    color: 999;
+    font-size: 12px;
+}
