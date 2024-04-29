@@ -43,7 +43,8 @@ para estilizar a cor e lugares de cada .
 | Git hub       |           |
 |Apache         |2.4.53     |
 
-Este projeto foi desenvolvido por ANDRÉ MOREIRIA
+Este projeto foi desenvolvido por ANDRÉ MOREIRIA criador do canal do youtube  [Monolito PHP](https://www.youtube.com/watch?v=dJ49I-QYYUk&ab_channel=MonolitoPHP).
+ 
 
 
 
