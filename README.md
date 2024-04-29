@@ -43,7 +43,7 @@ para estilizar a cor e lugares de cada .
 | Git hub       |           |
 |Apache         |2.4.53     |
 
-Este projeto foi desenvolvido por [ANDRÉ MOREIRIA]
+Este projeto foi desenvolvido por ANDRÉ MOREIRIA
 
 
 
